@@ -1,0 +1,36 @@
+from __future__ import division
+import nltk, re, pprint
+
+raw = <text> #get it from the web or a file, whatever. raw is a string
+
+tokens = nltk.word_tokenize(raw) #divides raw text into words
+text = nltk.Text(tokens) #this creates "nltk text"
+
+text.collocations() #will give the important bigrams
+
+raw = nltk.clean_html(<text>) # will clean out html, may not be better than beautiful soup
+
+pypdf and pywin32 will read word and pdf file formats
+
+f = open('document.txt', 'r')
+raw = f.read()
+
+.lower() # change all to lower case
+
+stemmers:
+porter = nltk.PorterSetmmer()
+lancaster = nltk.LancasterStemmer()
+[porter.stem(t) for t in tokens]
+[lancaster.stem(t) for t in tokens] #these are tools for normalizing (or stemming) a list of words. The porter stemmer is probably better.
+wnl = nltk.WordNetLemmatizer()
+[wnl.lemmatize(t) for t in tokens] #uses word Net for stemming. Only works if word is in WordNet. But it will give you a list of valide lemmas.
+
+re.findall() # can be used to find the terms of interest like predation
+
+can use classification to determine the topic of a paragraph in Wikipedia
+-tokenize and then find the important words for each paragraph of a certain type, this is the training data
+-then look for the important words in the test document
+classifier = nltk.NaiveBayesClassifier.train(train_set)
+can use classification to disambiguate homonyms
+
+text4.lexical_dispersion_plot

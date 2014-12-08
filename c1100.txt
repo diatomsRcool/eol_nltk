@@ -1,0 +1,1 @@
+fisheries: minor commercial; gamefish: yes; price category: low; price reliability: reliable: based on ex-vessel price for this species

@@ -1,0 +1,11 @@
+Depth range based on 91 specimens in 1 taxon.
+Water temperature and chemistry ranges based on 68 samples.
+
+Environmental ranges
+  Depth range (m): 0 - 90
+  Temperature range (°C): -1.186 - 13.032
+  Nitrate (umol/L): 1.962 - 5.026
+  Salinity (PPS): 33.211 - 35.374
+  Oxygen (ml/l): 6.094 - 8.441
+  Phosphate (umol/l): 0.174 - 0.612
+  Silicate (umol/l): 1.193 - 4.900
